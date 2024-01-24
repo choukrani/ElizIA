@@ -86,7 +86,6 @@ function plotmesh(mesh::Mesh, titre="")
             plot!(p, [theline[1][1],theline[2][1]], [theline[1][2],theline[2][2]])
         end
     end
-    println("MAX : ", max_value)
     display(p) 
 end
 
